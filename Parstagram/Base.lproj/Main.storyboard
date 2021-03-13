@@ -169,11 +169,17 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="n1i-qR-vFv">
-                        <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="opW-Lx-qdg">
-                            <connections>
-                                <segue destination="bpI-tG-1lI" kind="presentation" id="jeF-ur-HFn"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="+" image="insta_camera_btn" id="opW-Lx-qdg">
+                                <color key="tintColor" red="0.079005652859999997" green="0.099536441330000003" blue="0.21279734189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <segue destination="bpI-tG-1lI" kind="presentation" id="jeF-ur-HFn"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Item" image="instagram_logo" springLoaded="YES" id="4gX-Lh-tuZ">
+                                <color key="tintColor" red="0.079005652859999997" green="0.099536441330000003" blue="0.21279734189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="Ti5-3x-Qxq" id="mVb-uJ-ewc"/>
