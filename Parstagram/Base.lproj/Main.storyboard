@@ -36,10 +36,10 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dj6-lP-dOa">
                                 <rect key="frame" x="29" y="485" width="370" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuZ-RE-Y0p">
-                                <rect key="frame" x="66" y="553" width="92" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuZ-RE-Y0p">
+                                <rect key="frame" x="66" y="558" width="92" height="31"/>
                                 <color key="backgroundColor" red="0.079005652859999997" green="0.099536441330000003" blue="0.21279734189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="92" id="NFr-jc-6lM"/>
@@ -54,7 +54,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4D-cW-ZUr">
-                                <rect key="frame" x="262" y="553" width="92" height="31"/>
+                                <rect key="frame" x="257" y="558" width="92" height="31"/>
                                 <color key="backgroundColor" red="0.079005652859999997" green="0.099536441330000003" blue="0.21279734189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Sign Up">
@@ -64,7 +64,7 @@
                                     <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ba-pg-2RQ"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="l76-hm-1ya">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="l76-hm-1ya">
                                 <rect key="frame" x="61" y="217" width="293" height="121"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="121" id="6Yt-Jc-Tpt"/>
@@ -78,13 +78,13 @@
                             <constraint firstItem="l76-hm-1ya" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="4Ef-1w-fka"/>
                             <constraint firstItem="Dj6-lP-dOa" firstAttribute="top" secondItem="tdp-Kv-vuD" secondAttribute="bottom" constant="9" id="DWk-yu-4F3"/>
                             <constraint firstItem="l76-hm-1ya" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="173" id="Fqa-AZ-lpG"/>
-                            <constraint firstItem="T4D-cW-ZUr" firstAttribute="leading" secondItem="KuZ-RE-Y0p" secondAttribute="trailing" constant="80" id="Ij7-YQ-y7K"/>
+                            <constraint firstItem="T4D-cW-ZUr" firstAttribute="leading" secondItem="KuZ-RE-Y0p" secondAttribute="trailing" constant="104" id="Ij7-YQ-y7K"/>
                             <constraint firstItem="izF-or-2k0" firstAttribute="top" secondItem="l76-hm-1ya" secondAttribute="bottom" constant="8" id="IpA-xL-wdi"/>
                             <constraint firstItem="Dj6-lP-dOa" firstAttribute="trailing" secondItem="buo-Up-Rme" secondAttribute="trailing" id="Lty-5q-02T"/>
                             <constraint firstItem="KuZ-RE-Y0p" firstAttribute="top" secondItem="Dj6-lP-dOa" secondAttribute="bottom" constant="34" id="Yqm-ey-ogW"/>
                             <constraint firstItem="buo-Up-Rme" firstAttribute="top" secondItem="izF-or-2k0" secondAttribute="bottom" constant="7" id="cAR-la-jvI"/>
                             <constraint firstItem="Dj6-lP-dOa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cHI-j0-qtd"/>
-                            <constraint firstItem="Dj6-lP-dOa" firstAttribute="centerX" secondItem="l76-hm-1ya" secondAttribute="centerX" id="ecF-Kn-RuA"/>
+                            <constraint firstItem="Dj6-lP-dOa" firstAttribute="centerX" secondItem="l76-hm-1ya" secondAttribute="centerX" constant="6.5" id="ecF-Kn-RuA"/>
                             <constraint firstItem="Dj6-lP-dOa" firstAttribute="leading" secondItem="tdp-Kv-vuD" secondAttribute="leading" id="fV6-1E-N8V"/>
                             <constraint firstItem="Dj6-lP-dOa" firstAttribute="leading" secondItem="buo-Up-Rme" secondAttribute="leading" id="hhN-Su-y17"/>
                             <constraint firstItem="KuZ-RE-Y0p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="hjj-HB-jQV"/>
@@ -115,11 +115,68 @@
                         <viewLayoutGuide key="safeArea" id="yk9-he-vrV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="n1i-qR-vFv"/>
+                    <navigationItem key="navigationItem" id="n1i-qR-vFv">
+                        <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="opW-Lx-qdg">
+                            <connections>
+                                <segue destination="bpI-tG-1lI" kind="presentation" id="jeF-ur-HFn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="88c-8f-QhG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1794.2028985507247" y="104.46428571428571"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="WgM-nu-GKc">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="bpI-tG-1lI" customClass="CameraViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nZj-NK-lrd">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="2ao-o6-W00">
+                                <rect key="frame" x="20" y="44" width="388" height="337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="eUV-Ln-EQP" appends="YES" id="Pis-Ie-5uf"/>
+                                </connections>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S7N-CR-Zpt">
+                                <rect key="frame" x="20" y="389" width="388" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1v-nT-A3A">
+                                <rect key="frame" x="20" y="431" width="388" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="0.079005652859999997" green="0.099536441330000003" blue="0.21279734189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSubmitButton:" destination="bpI-tG-1lI" eventType="touchUpInside" id="yxM-ja-LOW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iiG-uk-WTj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="commentField" destination="S7N-CR-Zpt" id="P7c-eB-34h"/>
+                        <outlet property="imageView" destination="2ao-o6-W00" id="xQI-EI-Gog"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cdp-hH-fme" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="eUV-Ln-EQP">
+                    <connections>
+                        <action selector="onCameraButton:" destination="bpI-tG-1lI" id="gzB-i1-8qv"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2569.6261682242989" y="103.67170626349893"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="o1E-Dg-1Co">
@@ -141,6 +198,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="image_placeholder" width="375" height="375"/>
+        <image name="insta_camera_btn" width="25" height="25"/>
         <image name="instagram_logo" width="255" height="108"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
