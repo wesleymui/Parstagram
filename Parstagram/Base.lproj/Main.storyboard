@@ -53,8 +53,14 @@
                                     <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0SK-Xr-mBe"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="l76-hm-1ya">
+                                <rect key="frame" x="61" y="217" width="293" height="121"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="121" id="6Yt-Jc-Tpt"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4D-cW-ZUr">
-                                <rect key="frame" x="257" y="558" width="92" height="31"/>
+                                <rect key="frame" x="262" y="558" width="92" height="31"/>
                                 <color key="backgroundColor" red="0.079005652859999997" green="0.099536441330000003" blue="0.21279734189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Sign Up">
@@ -64,12 +70,6 @@
                                     <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ba-pg-2RQ"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="l76-hm-1ya">
-                                <rect key="frame" x="61" y="217" width="293" height="121"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="121" id="6Yt-Jc-Tpt"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
