@@ -16,6 +16,7 @@
 		801B264D25FD457E00B34F70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B264C25FD457E00B34F70 /* LoginViewController.swift */; };
 		801B265025FD458800B34F70 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B264F25FD458800B34F70 /* FeedViewController.swift */; };
 		805DA8D825FD6BEC00FD408C /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DA8D725FD6BEC00FD408C /* PostCell.swift */; };
+		8093B09E2606E1F3002FACF3 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8093B09D2606E1F3002FACF3 /* CommentCell.swift */; };
 		FEC2C4017F3974C70B26E419 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BA639B092FBD7AF97FD2E9 /* Pods_Parstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		801B264C25FD457E00B34F70 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		801B264F25FD458800B34F70 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		805DA8D725FD6BEC00FD408C /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		8093B09D2606E1F3002FACF3 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		F383E4F61BBEE628252EA926 /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 				801B264F25FD458800B34F70 /* FeedViewController.swift */,
 				8014E75F25FD601C0056E1CB /* CameraViewController.swift */,
 				805DA8D725FD6BEC00FD408C /* PostCell.swift */,
+				8093B09D2606E1F3002FACF3 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				801B265025FD458800B34F70 /* FeedViewController.swift in Sources */,
 				8014D36225FD34B20014F749 /* SceneDelegate.swift in Sources */,
 				805DA8D825FD6BEC00FD408C /* PostCell.swift in Sources */,
+				8093B09E2606E1F3002FACF3 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
